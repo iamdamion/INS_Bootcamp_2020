@@ -7,12 +7,12 @@ In modern research workflows, it is useful to make use of shared and openly avai
 
 Two very useful tools that we will briefly cover in this demo are [Docker](https://docs.docker.com/get-docker/) and [Jupyter Notebook](https://jupyter.org/). During this bootcamp session, we will demo the use of these tools (with a very brief overview of [Binder](https://mybinder.org/)) while addressing an important topic in the scientific community - the impact of gender bias in scientific citations [Dworkin et al., 2020](https://doi.org/10.1038/s41593-020-0658-y) [1]. 
 
-## Goals: 
+## Goals for this demo session
 1. We will use the [Gender Diversity Statement and Code Notebook (cleanBib)](https://github.com/dalejn/cleanBib) [2], to create a cleaned citation list from your .bib file (or the provided example file). 
 2. We will then input that cleaned author list into a tool I developed during the OHBM 2020 Brainhack: [Gender Representation in Citations - circle Visualization](https://github.com/iamdamion/grepCIRCLE) in order to visualize author gender representation of the example publication. 
 3. Demonstrate the value of open science tools and encourage you to integrate existing tools/develop your own for all of your future projects and publications. 
 
-## Tasks to complete before demo:
+## Tasks to complete before demo
 Please complete the following tasks before the demo so you can follow along. 
 - [ ] Install [Docker](https://docs.docker.com/get-docker/)
 - [ ] Sign up at [Gender API](https://gender-api.com/)
@@ -22,7 +22,7 @@ Please complete the following tasks before the demo so you can follow along.
 - [ ] Download this repository as a .zip file (or clone it if you are familiar with github)
   - Unzip all contents into a folder somewhere on your computer called "INSdemo". (We will be working in this folder during the demo)
   
-**Optional Pre-Demo Steps**:
+**Optional Pre-Demo Steps**
 - [ ] Create a .bib file from your paper or reference manager
   - Word document with reference manager-inserted references [Reference Extractor](https://rintze.zelle.me/ref-extractor/)
   - [Export from Mendeley](https://blog.mendeley.com/2011/10/25/howto-use-mendeley-to-create-citations-using-latex-and-bibtex/)
@@ -35,7 +35,7 @@ Please complete the following tasks before the demo so you can follow along.
 docker pull iamdamion/demopy:1.0
 ```
 
-## Demo Tasks:
+## Demo taska we will walk through
 - [ ] Verify Docker is installed
 ```
 # Verify Docker installation command
