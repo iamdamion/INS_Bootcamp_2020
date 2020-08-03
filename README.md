@@ -9,7 +9,7 @@ Two very useful tools that we will briefly cover in this demo are [Docker](https
 
 ## Goals for this demo session
 1. We will use the [Gender Diversity Statement and Code Notebook (cleanBib)](https://github.com/dalejn/cleanBib) [2], to create a cleaned citation list from your .bib file (or the provided example file). 
-2. We will then input that cleaned author list into a tool I developed during the OHBM 2020 Brainhack: [Gender Representation in Citations - circle Visualization](https://github.com/iamdamion/grepCIRCLE) in order to visualize author gender representation of the example publication. 
+2. We will then input that cleaned author list into a tool I developed during the OHBM 2020 Brainhack: [Gender Representation in Citations - circle Visualization](https://github.com/iamdamion/grepCIRCLE) [3] in order to visualize author gender representation of the example publication. 
 3. Demonstrate the value of open science tools and encourage you to integrate existing tools/develop your own for all of your future projects and publications. 
 
 ## Tasks to complete before demo
@@ -66,4 +66,6 @@ docker run --rm -v /$PWD:/app iamdamion/demopy:1.0 python /app/grepCIRCLE.py
 ## References:
 > [1] [J. D. Dworkin, K. A. Linn, E. G. Teich, P. Zurn, R. T. Shinohara, and D. S. Bassett, “The extent and drivers of gender imbalance in neuroscience reference lists,” Nat Neurosci (2020). https://doi.org/10.1038/s41593-020-0658-y](https://doi.org/10.1038/s41593-020-0658-y) 
 
-> [2] [D. Zhou, E. J. Cornblath, J. Stiso, E. G. Teich, J. D. Dworkin, A. S. Blevins, and D. S. Bassett, “Gender diversity statement and code notebook", v1.0, Zenodo, doi:10.5281/zenodo.3672109](https://github.com/dalejn/cleanBib) 
+> [2] [D. Zhou, E. J. Cornblath, J. Stiso, E. G. Teich, J. D. Dworkin, A. S. Blevins, and D. S. Bassett (2020, February 17) “Gender diversity statement and code notebook", v1.0, Zenodo, doi:10.5281/zenodo.3672109](https://github.com/dalejn/cleanBib) 
+
+> [3] [D. V. Demeter (2020, June 26) "Gender Representation in Citations - Circle Visualization", v1.0.1, Zenodo, doi:10.5281/zenodo.3909807](https://github.com/iamdamion/grepCIRCLE)
