@@ -1,7 +1,8 @@
 
-# UT INS Bootcamp 2020 - Checking citation bias using common "open science" tools
+# UT INS Bootcamp 2020
+### Visualizing Citation Bias with "Open-Science" Tools
 
-## Overview:
+## Overview
 In modern research workflows, it is useful to make use of shared and openly available tools. Having an "open science" mindset is helpful in two main ways: (1) It saves time and helps you adhere to best practices in your field without having to "reinvent the wheel" and (2) Developing an open science framework for your research and sharing your tools/code allows for better reproducibility checks in the research community. 
 
 Two very useful tools that we will briefly cover in this demo are [Docker](https://docs.docker.com/get-docker/) and [Jupyter Notebook](https://jupyter.org/). During this bootcamp session, we will demo the use of these tools (with a very brief overview of [Binder](https://mybinder.org/)) while addressing an important topic in the scientific community - the impact of gender bias in scientific citations [Dworkin et al., 2020](https://doi.org/10.1038/s41593-020-0658-y) [1]. 
