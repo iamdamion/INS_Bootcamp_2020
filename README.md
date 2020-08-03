@@ -36,11 +36,31 @@ docker pull iamdamion/demopy:1.0
 
 ## Demo Tasks:
 - [ ] Verify Docker is installed
+```
+# Verify Docker installation command
+docker -h
+```
 - [ ] Download docker image for demo
+```
+# Pull demo docker image
+docker pull iamdamion/demopy:1.0
+
+# Check if docker image is downloaded/list all local images
+docker images
+```
 - [ ] Verify/Locate Gender API key
 - [ ] Verify/Locate .bib file
 - [ ] Demo of cleanBIB binder/jupyter notebook to create clean authors list 
+  - This takes a few steps and you may need to run it a few times to clean your author list
+  - Save time by checking all names in your .bib file only have one first name, one last name, and one initial.
+  - Edit author entires that may confuse script/API
+  - Edit final output .csv if you are aware of any incorrect or unknown gender guesses from API
 - [ ] Demo of grepCIRCLE to create author citation circle visualization
+```
+# First cd into the demo folder you made (INSdemo)
+# For reference: Docker command to run grepCIRCLE.py
+docker run --rm -v /$PWD:/app iamdamion/demopy:1.0 python /app/grepCIRCLE.py
+```
 
 ## References:
 > [1] [J. D. Dworkin, K. A. Linn, E. G. Teich, P. Zurn, R. T. Shinohara, and D. S. Bassett, “The extent and drivers of gender imbalance in neuroscience reference lists,” Nat Neurosci (2020). https://doi.org/10.1038/s41593-020-0658-y](https://doi.org/10.1038/s41593-020-0658-y) 
