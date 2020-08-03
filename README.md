@@ -35,7 +35,7 @@ Please complete the following tasks before the demo so you can follow along.
 docker pull iamdamion/demopy:1.0
 ```
 
-## Demo taska we will walk through
+## Demo tasks we will walk through
 - [ ] Verify Docker is installed
 ```
 # Verify Docker installation command
