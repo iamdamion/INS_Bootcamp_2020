@@ -14,11 +14,12 @@ Two very useful tools that we will briefly cover in this demo are [Docker](https
 
 ## Tasks to complete before demo
 Please complete the following tasks before the demo so you can follow along. 
+- [ ] Read the attached [Dworkin et al., 2020](https://doi.org/10.1038/s41593-020-0658-y) article
 - [ ] Install [Docker](https://docs.docker.com/get-docker/)
 - [ ] Sign up at [Gender API](https://gender-api.com/)
   - Once signed in, click "My Account" in the upper right
-  - Toward the top on the right, click "View API Key" (or scroll down). 
-  - Copy your API key (or remember where it is on this site) as we will need to enter it during the demo.
+  - Toward the top on the right, click "View API Key" (or scroll down).
+  - Copy your API key (or remember where it is on this site) as we will need to enter it during the demo
 - [ ] Download this repository as a .zip file (or clone it if you are familiar with github)
   - Unzip all contents into a folder somewhere on your computer called "INSdemo". (We will be working in this folder during the demo)
   
@@ -53,7 +54,7 @@ docker images
 - [ ] Verify/Locate .bib file
 - [ ] Demo of cleanBIB binder/jupyter notebook to create clean authors list 
   - This takes a few steps and you may need to run it a few times to clean your author list
-  - Save time by checking all names in your .bib file only have one first name, one last name, and one initial.
+  - Save time by checking all names in your .bib file only have one first name, one last name, and one initial
   - Edit author entires that may confuse script/API
   - Edit final output .csv if you are aware of any incorrect or unknown gender guesses from API
 - [ ] Demo of grepCIRCLE to create author citation circle visualization
